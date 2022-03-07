@@ -38,7 +38,7 @@ Without any explanation here, 0.1 lattice units (lu)/lattice time (lt) is tradit
 
 <a href="https://en.wikipedia.org/wiki/Pinewood_derby">Pinewood derbies</a> are a toy car competition where wooden cars are rolled down a ramp to a finish line.  Starting with a block of wood, competitors can modify the cars for design or performance within established rules.  A common modification is adjusting the profile of the car, cutting off pieces of the block.  Hence, this is a perfect "toy" application of this wind tunnel simulator.
 
-Years ago, competitors stated a rectangular block of wood.  These days, there are many starting profiles that can be used.  We took a picture of one such  profile, and made a black-and-white map of it and saved a cropped version of the image.
+Years ago, competitors started a rectangular block of wood.  These days, there are many starting profiles that can be used.  We took a picture of one such  profile, and made a black-and-white map of it and saved a cropped version of the image.
 
 <img src="https://github.com/tcubed/windTunnel/blob/master/content/car.png" style="height:50px">
 
