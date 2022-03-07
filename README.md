@@ -12,7 +12,7 @@ The simulator will create velocity and pressure maps showing the air stream traj
 
 <img src="https://github.com/tcubed/windTunnel/blob/master/content/car_out.png" style="height:400px">
 
-The "fx" shows the horizontal drag force on the object ("fy" indicates lift), with lower numbers having less drag.  Re-run different designs to improve your numbers.
+The "fx" shows the horizontal drag force on the object ("fy" indicates lift), with lower numbers having less drag.  A low dv-max number (<1e-3) indicates the simulation has settled down to a stable solution.  Re-run different designs to improve your numbers.
 
 ## Introduction
 
