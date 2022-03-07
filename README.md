@@ -46,9 +46,19 @@ To create the input image used for the simulator, the image is rescaled to be 30
 
 The air flow entering from the left and the "road" speed on the bottom are the same, and the top and right boundaries are open to the atmosphere.  Remember, for our simple analysis, we don't care about actual values, but we are looking for designs which will improve performance.  In this case, reducing drag.
 
+## Diagnostic and output results
+
 For several hundred iterations (or more, depending on input size), the simulation will permeate the domain and evolve.  We don't want to stop the simulation before it has "settled down" to a consistent flow profile.  Here, convergence is measured by how much the velocity field changes from iteration to iteration, and the simulation is ended when the difference drops below a certain level.  We've created a diagnostic image below to show the simulation convergence on the left, the horizontal (x) forces in the middle, and the vertical (y) forces at the right.  Our aim is to create designs with the lowest fx-total value, which is the drag.
 
 <img src="https://github.com/tcubed/windTunnel/blob/master/content/car_diag.png" style="height:300px">
+
+In the evaluation script, the diagnostic and output images are updated every 100 iterations.  The output image, below, shows the velocity results on the top and the pressure results on the bottom.  The velocity field is has warmer colors for higher velocity, where it increases going over the car.  The pressure field has warmer colors for higher pressure, where it is higher at the front of the car and lower behind the car.  The air streamlines are shown which show how tracer particles in the air would flow over the car.
+
+<img src="https://github.com/tcubed/windTunnel/blob/master/content/car_out.png" style="height:300px">
+
+## Interpretation
+
+The front of the car has a negative incline, leading to a high pressure zone.  The back of the car, shown darker in the figure, is a low pressure zone.  The net effect is the front of the car is pushed backward and the back of the car is pulled backward compared to being stationary stationary.  The fx value of 1.53 represents the "value to beat".  That is, we want to make changes to the car, like reshaping the front of the car, to reduce this value and thus reduce the drag.
 
 # More theory and method details
 
