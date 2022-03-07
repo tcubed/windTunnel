@@ -58,7 +58,7 @@ In the evaluation script, the diagnostic and output images are updated every 100
 
 ### Interpretation
 
-The front of the car has a negative incline, leading to a high pressure zone.  The back of the car, shown darker in the figure, is a low pressure zone.  The net effect is the front of the car is pushed backward and the back of the car is pulled backward compared to being stationary stationary.  The fx value of 1.53 represents the "value to beat".  That is, we want to make changes to the car, like reshaping the front of the car, to reduce this value and thus reduce the drag.
+The front of the car has a negative incline, leading to a high pressure zone.  The back of the car, shown darker in the figure, is a low pressure zone.  The net effect is that, compared to being stationary, the front of the car is pushed backward and the back of the car is pulled backward.  The fx value of 1.53 represents the "value to beat".  That is, we want to make changes to the car, like reshaping the front of the car, to reduce this value and thus reduce the drag.
 
 ## More theory and method details
 
