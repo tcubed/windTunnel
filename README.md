@@ -62,7 +62,7 @@ The front of the car has a negative incline, leading to a high pressure zone.  T
 
 ## More theory and method details
 
-The air flow from the left was set to 0.1 lu/lt and the road at the bottom of the input moves to the right at 0.1 lu/lt.  The top and right boundaries are open.  The fluid (i.e. air) density was set to 1 lm/lu^3.  Remember, for our simple analysis, we don't care about actual values (therefore there is no need to change them), but we are looking for designs which will improve performance.  In this case, reducing drag.
+The air flow from the left was set to 0.1 lu/lt and the road at the bottom of the input moves to the right at 0.1 lu/lt.  The top and right boundaries are open.  The fluid (i.e. air) density was set to 1 lm/lu^3.
 
 The LBM simulator solves for the local velocity and pressure fields iteratively.  The drag consists of the normal net force between the front-facing and back-facing lattice points and the tangential force on the top-facing and the bottom-facing lattice points.
 
